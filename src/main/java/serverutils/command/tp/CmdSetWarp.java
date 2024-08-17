@@ -16,7 +16,7 @@ import serverutils.lib.math.BlockDimPos;
 public class CmdSetWarp extends CmdBase {
 
     public CmdSetWarp() {
-        super("setwarp", Level.OP);
+        super("setwarp", Level.ALL);
     }
 
     @Override

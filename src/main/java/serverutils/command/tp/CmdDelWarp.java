@@ -13,7 +13,7 @@ import serverutils.lib.data.Universe;
 public class CmdDelWarp extends CmdBase {
 
     public CmdDelWarp() {
-        super("delwarp", Level.OP);
+        super("delwarp", Level.ALL);
     }
 
     @Override
